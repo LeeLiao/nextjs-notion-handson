@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Hands-On',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'nextjs-notion-handson.vercel.app',
   author: 'Leeliao',
 
   // open graph metadata (optional)
@@ -55,27 +55,27 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '关于展翼',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+      pageId: 'b8c7cdd5bde849dcb77311025df2a4c1'
     },
     {
       title: '义肢辅具',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: 'cb0231286a8e4e258527747dca1f29e2'
     },
     {
       title: '设计师',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: 'cb0231286a8e4e258527747dca1f29e2'
     },
     {
       title: '支持服务',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: 'cb0231286a8e4e258527747dca1f29e2'
     },
     {
       title: '有趣故事',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: 'cb0231286a8e4e258527747dca1f29e2'
     },
     {
       title: '我要义肢',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: 'cb0231286a8e4e258527747dca1f29e2'
     }
   ]
 })
