@@ -42,11 +42,15 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/about': 'b8c7cdd5bde849dcb77311025df2a4c1',
+    '/arms': '14f5528b21fc4290b58c22c18feb3ee1',
+    '/designers': '572a58227ea04c94b548fa3b1ecb30c1',
+    '/supporting-service': 'df0284a95bb945289fd28ec8a6a90a83',
+    '/stories': '0d23287a68ae4460b74c075cfc7f83b0',
+    '/help': '6bec63208fd649dd856629a2ac305da5'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
@@ -59,23 +63,23 @@ export default siteConfig({
     },
     {
       title: '义肢辅具',
-      pageId: 'cb0231286a8e4e258527747dca1f29e2'
+      pageId: '14f5528b21fc4290b58c22c18feb3ee1'
     },
     {
       title: '设计师',
-      pageId: 'cb0231286a8e4e258527747dca1f29e2'
+      pageId: '572a58227ea04c94b548fa3b1ecb30c1'
     },
     {
       title: '支持服务',
-      pageId: 'cb0231286a8e4e258527747dca1f29e2'
+      pageId: 'df0284a95bb945289fd28ec8a6a90a83'
     },
     {
       title: '有趣故事',
-      pageId: 'cb0231286a8e4e258527747dca1f29e2'
+      pageId: '0d23287a68ae4460b74c075cfc7f83b0'
     },
     {
       title: '我要义肢',
-      pageId: 'cb0231286a8e4e258527747dca1f29e2'
+      pageId: '6bec63208fd649dd856629a2ac305da5'
     }
   ]
 })
