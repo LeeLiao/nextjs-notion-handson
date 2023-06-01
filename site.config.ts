@@ -48,7 +48,8 @@ export default siteConfig({
     '/designers': '572a58227ea04c94b548fa3b1ecb30c1',
     '/supporting-service': 'df0284a95bb945289fd28ec8a6a90a83',
     '/stories': '0d23287a68ae4460b74c075cfc7f83b0',
-    '/help': '6bec63208fd649dd856629a2ac305da5'
+    '/help': '6bec63208fd649dd856629a2ac305da5',
+    '/zh1': '869a8e0d73b9457fbb691df6bde6fc20'
   },
   // pageUrlOverrides: null,
 

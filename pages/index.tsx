@@ -18,6 +18,23 @@ export const getStaticProps = async () => {
   }
 }
 
+// default page content here
+// export default function NotionDomainPage(props) {
+//   return <NotionPage {...props} />
+// }
+
 export default function NotionDomainPage(props) {
-  return <NotionPage {...props} />
+  return (
+    <div>
+      <section className="hero-section">
+        {/* Your content for the first hero section */}
+      </section>
+
+      <section className="hero-section">
+        {/* Your content for the second hero section */}
+      </section>
+
+      <NotionPage {...props} />
+    </div>
+  )
 }
