@@ -17,9 +17,11 @@ export default siteConfig({
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  // twitter: 'transitive_bs',
+  // github: 'transitive-bullshit',
+  // bilibili: '576830363',
+  weixin: 'wow3dhand',
+  // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -65,22 +67,22 @@ export default siteConfig({
     {
       title: '义肢辅具',
       pageId: '14f5528b21fc4290b58c22c18feb3ee1'
-    },
-    {
-      title: '设计师',
-      pageId: '572a58227ea04c94b548fa3b1ecb30c1'
-    },
-    {
-      title: '支持服务',
-      pageId: 'df0284a95bb945289fd28ec8a6a90a83'
-    },
-    {
-      title: '有趣故事',
-      pageId: '0d23287a68ae4460b74c075cfc7f83b0'
-    },
-    {
-      title: '我要义肢',
-      pageId: '6bec63208fd649dd856629a2ac305da5'
     }
+    // {
+    //   title: '设计师',
+    //   pageId: '572a58227ea04c94b548fa3b1ecb30c1'
+    // },
+    // {
+    //   title: '支持服务',
+    //   pageId: 'df0284a95bb945289fd28ec8a6a90a83'
+    // },
+    // {
+    //   title: '有趣故事',
+    //   pageId: '0d23287a68ae4460b74c075cfc7f83b0'
+    // },
+    // {
+    //   title: '我要义肢',
+    //   pageId: '6bec63208fd649dd856629a2ac305da5'
+    // }
   ]
 })
