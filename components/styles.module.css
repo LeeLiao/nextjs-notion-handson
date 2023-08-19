@@ -50,9 +50,17 @@
   padding: 8px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row; /* Arrange children in a row */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Take up the full width of the footer */
 }
 
 .copyright {
@@ -66,7 +74,8 @@
 }
 
 .settings a,
-.social a {
+.social a,
+.social .wechat {
   cursor: pointer;
   font-size: 2em;
   display: inline-flex;
@@ -217,3 +226,39 @@
 .hidden {
   visibility: hidden;
 }
+
+.wechatContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.qrCode {
+  position: absolute;
+  top: -10px; /* Adjust this value based on the height of your QR code and desired spacing */
+  left: 50%;
+  transform: translate(-50%, -100%); /* Center horizontally and move it above the Weixin icon */
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1; /* Ensure the QR code floats above other elements */
+}
+
+.wechatContainer:hover .qrCode {
+  display: block;
+}
+
+
+.logo {
+  width: 150px; /* Adjust as needed */
+  margin-bottom: 10px; /* Space between the logo and the copyright text */
+}
+
+.logoDescription {
+  font-size: 14px; /* Adjust as needed */
+  margin-top: 0px; /* Space between the logo and the text */
+  margin-bottom: 20px;
+  text-align: left; /* Center the text if desired */
+}
+
